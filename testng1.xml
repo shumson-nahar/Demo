@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Paramaterization testngxml Suite">
+  <test  name="parameterize Test">
+<parameter name="Browser" value="Firefox"/>
+<parameter name="url" value="https://tutorialsninja.com/demo/"/>
+<parameter name="emailid" value="naharshumson@gmail.com"/>
+<parameter name="password" value="Farabi1234"/>
+    <classes>
+      <class name="basicparameterazation.Data_Provider"/>
+      <class name="basicparameterazation.Parameterization_tngxml"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
